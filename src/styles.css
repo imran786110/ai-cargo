@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body {
   padding: 0;
   margin: 0;
-  background: #fff;
+  background: rgb(44, 42, 42);
 }
 body a {
   transition: 0.5s all;
@@ -32,10 +32,14 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  font-family: serif;
+  color: #fff;
 }
 p {
   margin: 0;
   padding: 0;
+  font-family: serif;
+  color: #fff;
 }
 ul {
   margin: 0;
@@ -60,7 +64,7 @@ img {
 }
 /*-- /reset code --*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", serif;
 }
 /*-- navigation effects --*/
 .navbar {
@@ -77,9 +81,9 @@ body {
 .navbar-brand h1 {
   font-size: 32px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   text-transform: capitalize;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 .navbar-brand h1 span {
   font-size: 30px;
@@ -99,10 +103,10 @@ body {
   background-color: #33accc;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #fff;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   padding: 18px 18px;
   text-transform: uppercase;
   transition: all 0.5s ease-in-out;
@@ -122,8 +126,8 @@ body {
   font-size: 20px;
   padding: 20px 0;
   font-weight: 500;
-  color: #000;
-  font-family: "Exo 2", sans-serif;
+  color: #fff;
+  font-family: "Exo 2", serif;
 }
 .dropdown-menu .track-w3ls input[type="text"] {
   border: 1px solid #000;
@@ -156,7 +160,7 @@ body {
   color: #fff;
   padding: 10px 20px;
   border-radius: 0;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   background-color: #33accc;
 }
 .dropdown-menu .track-w3ls p.track-p1 {
@@ -165,7 +169,7 @@ body {
   color: #000;
   text-transform: capitalize;
   padding: 20px 0 10px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 .dropdown-menu .track-w3ls p.track-p2 {
   padding-bottom: 20px;
@@ -173,19 +177,19 @@ body {
 .dropdown-menu .track-w3ls p.track-p2 a {
   font-size: 15px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   text-decoration: none;
 }
 .dropdown-menu .login-w3ls h3 {
   font-size: 20px;
   padding: 20px 0;
   font-weight: 500;
-  color: #000;
-  font-family: "Exo 2", sans-serif;
+  color: #fff;
+  font-family: "Exo 2", serif;
 }
 .dropdown-menu .login-w3ls input[type="text"] {
-  border: 1px solid #000;
-  color: #000;
+  border: 1px solid #fff;
+  color: #fff;
   height: 40px;
   width: 200px;
   padding: 0 15px;
@@ -194,8 +198,8 @@ body {
   outline: none;
 }
 .dropdown-menu .login-w3ls input[type="password"] {
-  border: 1px solid #000;
-  color: #000;
+  border: 1px solid #fff;
+  color: #fff;
   height: 40px;
   width: 200px;
   padding: 0 15px;
@@ -213,7 +217,7 @@ body {
   border-radius: 0;
   background-color: #33accc;
   margin-bottom: 20px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 /*-- /navigation effects --*/
 /*-- 1st banner section --*/
@@ -266,7 +270,7 @@ section.banner-w3ls h2.text-center {
   padding: 360px 0 40px;
   color: #fff;
   line-height: 90px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 section.banner-w3ls p.text-center {
   font-size: 17px;
@@ -282,7 +286,7 @@ section.special-w3layouts {
 section.special-w3layouts p.text-center {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
   padding-bottom: 50px;
 }
@@ -294,15 +298,15 @@ section.special-w3layouts img.img-responsive {
 section.special-w3layouts h4.text-center {
   font-size: 22px;
   font-weight: normal;
-  color: #000;
+  color: #fff;
   padding: 20px 0;
   text-transform: capitalize;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 section.special-w3layouts p.special-p1 {
   font-size: 15px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   text-align: center;
   line-height: 30px;
 }
@@ -338,9 +342,9 @@ section.info-w3ls3 h3.text-center,
 section.special-w3layouts h3.text-center {
   font-size: 50px;
   font-weight: normal;
-  color: #000;
+  color: #fff;
   padding: 20px 0 60px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   position: relative;
 }
 section.info-w3ls h3.text-center:after,
@@ -365,7 +369,7 @@ section.info-w3ls2 p.text-center,
 section.info-w3ls3 p.text-center {
   font-size: 17px;
   font-weight: normal;
-  color: #000;
+  color: #fff;
   line-height: 30px;
 }
 /*-- /1st info section --*/
@@ -389,7 +393,7 @@ section.banner-w3ls3 h3.text-center {
   padding: 265px 0 40px;
   color: #fff;
   line-height: 90px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 /*-- /2nd banner section --*/
 /*-- 2nd info section --*/
@@ -421,7 +425,7 @@ section.footer-agileits h3 {
   color: #fff;
   font-size: 25px;
   font-weight: normal;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   padding-bottom: 35px;
 }
 section.footer-agileits ul.info-links {
@@ -525,7 +529,7 @@ section.footer-agileits button.btn-outline {
   padding: 5px 10px;
   color: #fff;
   background: 0 0;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   transition: all 0.3s ease-in-out;
 }
 section.footer-agileits button.btn-outline:hover,
@@ -683,7 +687,7 @@ section.footer-agileits p.copyright {
   font-size: 15px;
   font-weight: 300;
   color: #fff;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   padding: 0px 20px 0;
   line-height: 30px;
 }
@@ -775,7 +779,7 @@ section.inner-w3ls h2.text-center {
   padding: 175px 0 40px;
   color: #fff;
   line-height: 90px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 section.inner-w3ls p.text-center {
   font-size: 17px;
@@ -884,9 +888,9 @@ section.contact-us h3.text-center,
 section.contact-w3ls h3.text-center {
   font-size: 50px;
   font-weight: normal;
-  color: #000;
+  color: #fff;
   padding: 20px 0 60px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   position: relative;
 }
 section.about-w3ls h3.text-center:after,
@@ -915,32 +919,31 @@ section.contact-w3ls h3.text-center:after {
 section.about-w3ls p {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 40px;
   text-align: center;
 }
 section.team-w3ls p.text-center {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
   padding-bottom: 50px;
 }
 section.team-w3ls h4 {
   font-size: 20px;
   font-weight: normal;
-  color: #000;
+  color: #fff;
   padding: 10px 0;
   text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 section.team-w3ls p.team-p1 {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
 }
-section.team-w3ls ul.social-icons1 {
-}
+
 section.team-w3ls ul.social-icons1 li {
   display: inline-block !important;
   margin: 1px !important;
@@ -1041,7 +1044,7 @@ section.team-w3ls ul.social-icons1 li a i.fa.fa-google-plus:hover {
 section.cust-agileits p.text-center {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
   padding-bottom: 50px;
 }
@@ -1050,7 +1053,7 @@ section.cust-agileits p.text-center {
 section.service-w3ls p.text-center {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
   padding-bottom: 50px;
 }
@@ -1061,13 +1064,13 @@ section.service-w3ls h5 {
   padding: 0 0 20px;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 section.service-w3ls p.serv-p1 {
   font-size: 14px;
   font-weight: normal;
   line-height: 30px;
-  color: #999;
+  color: #fff;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -1185,7 +1188,7 @@ section.service-w3ls p.serv-p1 {
   margin: 0 25px;
   padding: 40px 0 0 0;
   height: 90px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", Arial, serif;
   text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -1208,7 +1211,7 @@ section.service-w3ls p.serv-p1 {
   font-size: 9px;
   letter-spacing: 1px;
   padding-top: 4px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", Arial, serif;
 }
 
 .ch-info p a:hover {
@@ -1233,7 +1236,7 @@ section.service-w3ls p.serv-p1 {
 section.service-agileits p.text-center {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
   padding-bottom: 50px;
 }
@@ -1248,12 +1251,12 @@ section.service-agileits p.text-center {
   line-height: 45px;
   color: #42b4c8;
   padding-bottom: 20px;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 .marketing p.serv-p2 {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
 }
 .featurette-divider {
@@ -1273,7 +1276,7 @@ section.work-w3ls p.text-center {
   font-weight: normal;
   padding-bottom: 40px;
   line-height: 35px;
-  color: #999;
+  color: #fff;
 }
 section.work-w3ls .portfolio-grids {
   padding: 0;
@@ -1413,7 +1416,7 @@ section.work-w3ls .nav > li > a:focus {
 section.shipment-w3ls p.text-center {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
   padding-bottom: 50px;
 }
@@ -1429,7 +1432,7 @@ section.shipment-w3ls p.text-center {
   padding: 1.7em;
 }
 .content1-w3ls h2 {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   text-transform: uppercase;
   margin: 0;
   color: #fff;
@@ -1446,7 +1449,7 @@ section.shipment-w3ls p.text-center {
   padding: 1.5em;
 }
 .content2-header1 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", serif;
   font-size: 17px;
   font-weight: 700;
   color: #33accc;
@@ -1538,7 +1541,7 @@ span.line {
 section.transit-w3ls p.text-center {
   font-size: 16px;
   font-weight: normal;
-  color: #999;
+  color: #fff;
   line-height: 30px;
   padding-bottom: 50px;
 }
@@ -1557,7 +1560,7 @@ section.transit-w3ls .table > thead > tr > th {
   font-weight: normal;
   text-align: center;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", serif;
   text-transform: uppercase;
 }
 section.transit-w3ls .table > tbody > tr > td {
@@ -1566,7 +1569,7 @@ section.transit-w3ls .table > tbody > tr > td {
   color: #fff;
   line-height: 65px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", serif;
 }
 section.transit-w3ls .table > tbody > tr > td img.img-responsive {
   width: 70px;
@@ -1579,33 +1582,32 @@ section.transit-w3ls .table > tbody > tr > td h4 {
   line-height: 25px;
   margin: 20px 0 0 11px;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", serif;
 }
 /*-- /transit section --*/
 /*-- /process page --*/
 /*-- contact page --*/
 /*-- contact address --*/
-section.contact-us {
-}
+
 section.contact-us p.text-center {
   font-size: 17px;
   padding: 0 0 40px;
-  color: #999;
+  color: #fff;
 }
 section.contact-us h4 {
   font-size: 20px;
   padding: 20px 0;
   font-weight: bold;
   color: #33accc;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 section.contact-us p {
   font-size: 17px;
   padding: 10px 0;
-  color: #999;
+  color: #fff;
 }
 section.contact-us a {
-  color: #999;
+  color: #fff;
   text-decoration: none;
 }
 section.contact-us iframe.googlemaps {
@@ -1622,7 +1624,7 @@ section.contact-w3ls p.text-center {
 section.contact-w3ls label.contact-p1 {
   font-size: 17px;
   font-weight: 300;
-  color: #16214e;
+  color: #fff;
   padding-bottom: 10px;
 }
 .col-lg-6.col-md-6.col-sm-6.contact-agile1,
@@ -1676,7 +1678,7 @@ section.contact-w3ls button.btn.btn-primary:hover {
   font-weight: normal;
   color: #33accc;
   text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 .privacy1-grid,
 .privacy2-grid {
@@ -1691,7 +1693,7 @@ section.contact-w3ls button.btn.btn-primary:hover {
   color: #000;
   margin-bottom: 1em;
   text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 .privacy1-grid ul li i {
   color: #33accc;
@@ -1701,12 +1703,12 @@ section.contact-w3ls button.btn.btn-primary:hover {
 .privacy2-grid1 p {
   display: block;
   font-size: 14px;
-  color: #999;
+  color: #fff;
   line-height: 1.8em;
   margin-top: 10px;
   margin-bottom: 10px;
   text-transform: capitalize;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", serif;
 }
 .privacy1-grid ul {
   padding: 0 2em 1em;
@@ -1731,10 +1733,10 @@ section.contact-w3ls button.btn.btn-primary:hover {
 }
 .privacy2-grid1 h4 {
   font-size: 1.5em;
-  color: #000;
+  color: #fff;
   margin: 0 0 1em;
   line-height: 1.5em;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
   text-transform: uppercase;
 }
 .privacy2-grid1 h5 {
@@ -1743,7 +1745,7 @@ section.contact-w3ls button.btn.btn-primary:hover {
   color: #222c56;
   margin: 0 0 1em;
   text-transform: uppercase;
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", serif;
 }
 .privacy2-grid1-sub:nth-child(2) {
   margin: 2em 0;
